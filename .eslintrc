@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "prettier/prettier": ["error", {"singleQuote": true}],
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-uses-react": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
+  },
+  "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended", "prettier/react"],
+  "plugins": ["prettier"],
+
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parser": "@babel/eslint-parser"
+}
