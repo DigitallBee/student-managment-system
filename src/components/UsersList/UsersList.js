@@ -13,7 +13,7 @@ const UsersList = () => (
                      <p>{attendance}</p>
               </div>
               <div>
-                     <button>X</button>
+              <button>X</button>
               </div>
           </li>
           ))}
